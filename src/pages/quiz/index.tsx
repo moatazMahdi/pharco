@@ -390,8 +390,31 @@ export default function QuizPage() {
           marginTop: "40px",
         }}
       >
-        {/* HOME */}
+     <button
+          onClick={handleNext}
+          style={{
+            width: "40%",
+            height: "80px",
 
+            border: "none",
+
+            borderRadius: "20px",
+
+            background: "#0047D9",
+
+            color: "#fff",
+
+            fontSize: "32px",
+
+            fontWeight: "bold",
+
+            cursor: "pointer",
+          }}
+        >
+          Next
+        </button>
+
+        
         <button
           onClick={() => router.push("/")}
           style={{
@@ -421,31 +444,7 @@ export default function QuizPage() {
           Home
         </button>
 
-        {/* NEXT */}
-
-        <button
-          onClick={handleNext}
-          style={{
-            width: "40%",
-            height: "80px",
-
-            border: "none",
-
-            borderRadius: "20px",
-
-            background: "#0047D9",
-
-            color: "#fff",
-
-            fontSize: "32px",
-
-            fontWeight: "bold",
-
-            cursor: "pointer",
-          }}
-        >
-          Next
-        </button>
+   
       </div>
 
       {/* POPUP */}
